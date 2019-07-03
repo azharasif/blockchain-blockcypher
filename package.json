@@ -1,0 +1,24 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.6",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.34"
+  }
+}
+
